@@ -1,0 +1,466 @@
+[
+  {
+    "id": "79255d1935a5497fa4203d5b9",
+    "name": "Adrar - أدرار",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "dc848b344f564e4bbd66c99b3",
+    "name": "Chlef - الشلف",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "93c3752b9f8243238ef475ef1",
+    "name": "Laghouat - الأغواط",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "5a5217c519024622a1878739c",
+    "name": "Oum El Bouaghi - أم البواقي",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "9877073f1be84577a857eac7c",
+    "name": "Batna - باتنة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "59448527880d499db2c9e10dc",
+    "name": "Béjaïa - بجاية",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "b3b35aaf36ed40c299901238d",
+    "name": "Biskra - بسكرة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "4cbb1f4ed12546c18307a50a6",
+    "name": "Bechar - بشار",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "24ada3cc0a904e068a569bfba",
+    "name": "Blida - البليدة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "df6259d40f264f59937d6b920",
+    "name": "Bouira - البويرة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "7e52249ff87c49cda9dee7101",
+    "name": "Tamanrasset - تمنراست",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "c7c98582b3844b6f820924041",
+    "name": "Tbessa - تبسة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "bda963004476431c8c5c3c075",
+    "name": "Tlemcen - تلمسان",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "6bb058f7779f4db183611d9f3",
+    "name": "Tiaret - تيارت",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "2b4d3a63e27c4e0f93f01010e",
+    "name": "Tizi Ouzou - تيزي وزو",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "984c4ade959045399457afd37",
+    "name": "Alger - الجزائر",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "c0c9873a50cf4573a0a7e3d94",
+    "name": "Djelfa - الجلفة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "df1259b9942c4033b413c60d1",
+    "name": "Jijel - جيجل",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "27b9276c75a842219d0a61820",
+    "name": "Se9tif - سطيف",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "4a1a2ed6870c492c98d461ddb",
+    "name": "Saefda - سعيدة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "56728afa496d4c72943689253",
+    "name": "Skikda - سكيكدة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "429a431339c942f0b4faa399b",
+    "name": "Sidi Bel Abbes - سيدي بلعباس",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "68bac8b2a0144d99875d853ac",
+    "name": "Annaba - عنابة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "d117d645e4dc4f6ba84a36c0b",
+    "name": "Guelma - قالمة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "331e0808e128426eb96995247",
+    "name": "Constantine - قسنطينة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "1cc9456413c5499e890e6e385",
+    "name": "Medea - المدية",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "b920deb0928c42299d80ee722",
+    "name": "Mostaganem - مستغانم",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "b42c3036ec6d4f818848f92b8",
+    "name": "M'Sila - المسيلة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "73df24f259e24d508e689eb0d",
+    "name": "Mascara - معسكر",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "b939e3c0c62d4e449813335eb",
+    "name": "Ouargla - ورقلة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "739b5384bfe64c7794ae0a97c",
+    "name": "Oran - وهران",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "3cb999f6c34648b99dca47887",
+    "name": "El Bayadh - البيض",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "2e53eae898854cce9a2748505",
+    "name": "Illizi - إليزي",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "e3e300f2851341379332579ad",
+    "name": "Bordj Bou Arreridj - برج بوعريريج",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "9f54f3ef0d244731bffa45c08",
+    "name": "Boumerdes - بومرداس",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "c66a43c469aa462786f8f81da",
+    "name": "El Tarf - الطارف",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "80c2b095945f4ce3a80d33b55",
+    "name": "Tindouf - تندوف",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "8644c137046a4e4fb761fa197",
+    "name": "Tissemsilt - تيسمسيلت",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "a7f715705cd74e73943809d6c",
+    "name": "El Oued - الوادي",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "509a0bf239f34054b64b23e45",
+    "name": "Khenchela - خنشلة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "ff9845614d55442091543c4cf",
+    "name": "Souk Ahras - سوق أهراس",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "db65fe4881ac4c00832ba34df",
+    "name": "Tipaza - تيبازة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "3ac8e2e9a7344490bebe2116c",
+    "name": "Mila - ميلة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "264e379a31e2451da52ee4e0c",
+    "name": "Ain Defla - عين الدفلى",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "27533c05377b4686beead11d3",
+    "name": "Naama - النعامة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "89a55c517fe04cf88245cce9a",
+    "name": "Ain Temouchent - عين تموشنت",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "4d2d3d1b8f86406793cc78a5f",
+    "name": "Ghardaefa - غرداية",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "be3cf56f16374ea19389a0706",
+    "name": "Relizane - غليزان",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "ec4075f586094b72ae11fd8f9",
+    "name": "El M'ghair - المغير",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "ec1ab825a630466e8ac22a32c",
+    "name": "El Menia - المنيعة",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "e434a261f7e846cea0b30c75a",
+    "name": "Ouled Djellal - أولاد جلال",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "1e8240b288204edcbf34cdc8b",
+    "name": "Bordj Baji Mokhtar - برج باجي مختار",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "77765b7415034d00a09ef6189",
+    "name": "Béni Abbès - بني عباس",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "017777ee339448e78701dc72d",
+    "name": "Timimoun - تيميمون",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "1634bdf80e644194bab60e2db",
+    "name": "Touggourt - تقرت",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "62b7b3a983994882862105df0",
+    "name": "Djanet - جانت",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "2f9aa45e6f1142acbc696af8b",
+    "name": "In Salah - عين صالح",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  },
+  {
+    "id": "a6119f28b05e4c88b717ddeb0",
+    "name": "In Guezzam - عين قزام",
+    "deliveryPrice": 800.0,
+    "agencyName": "yalidin",
+    "createdAt": "2025-06-17T11:46:32.987721",
+    "updatedAt": "2025-06-17T11:46:32.987721"
+  }
+]

@@ -1,0 +1,186 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  role      Role     @default(EMPLOYEE)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+model Category {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  products Product[]
+
+  @@map("categories")
+}
+
+model Product {
+  id          String  @id @default(cuid())
+  title       String
+  description String?
+  imageUrl    String  // Cloudinary URL
+  price       Float
+  isActivated Boolean @default(true)
+  
+  // Stock management (optional fields)
+  sku      String? @unique
+  quantity Int?    @default(0)
+
+  productPriceForQty Json? // Array of {qty, price} objects
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  categoryId String
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  
+  orderItems OrderItem[]
+  coupons    ProductCoupon[]
+
+  @@map("products")
+}
+
+model Order {
+  id        String      @id @default(cuid())
+  firstName String
+  lastName  String
+  
+  phone     String
+  email     String?     // Optional email
+  status    OrderStatus @default(PENDING)
+  total     Float       @default(0)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  orderItems OrderItem[]
+  
+  // Delivery information
+  wilayaId String?
+  wilaya   Wilaya? @relation(fields: [wilayaId], references: [id], onDelete: SetNull)
+  baladia  String?
+  house    Boolean  @default(false)
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id       String @id @default(cuid())
+  quantity Int    @default(1)
+  price    Float  // Price at time of order
+  
+  // Relations
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("order_items")
+}
+
+model Coupon {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  discount    Float      // Percentage discount (e.g., 50 for 50%)
+  isActive    Boolean  @default(true)
+  expiresAt   DateTime?
+
+  maxUsage    Int?     // Total allowed usage (null = unlimited)
+  usedCount   Int      @default(0) // How many times the coupon has been used
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  products    ProductCoupon[]
+
+  @@map("coupons")
+}
+
+
+model ProductCoupon {
+  id String @id @default(cuid())
+  
+  // Relations
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  
+  couponId String
+  coupon   Coupon @relation(fields: [couponId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, couponId])
+  @@map("product_coupons")
+}
+
+model Wilaya {
+  id            String @id @default(cuid())
+  name          String @unique // Wilaya name
+  deliveryPrice Float          // Delivery price for this wilaya
+  agencyName    String         // Shipping agency name
+  wilaya_number  Int          @default(0)            // Wilaya number
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  orders Order[]
+
+  @@map("wilayas")
+}
+
+model Cms {
+  id              String   @id @default(cuid())
+  heroTitle       String?
+  heroTitleColor  String?
+  
+  heroDescription String?
+  heroDescriptionColor String?
+  heroImage       String?
+
+  @@map("cms")
+}
+
+model Dintegration {
+  id                String   @id @default(cuid())
+  sheetsIntegration Json?
+  facebookPixelId   String?
+}
+
+// Enums
+enum Role {
+  EMPLOYEE
+  ADMIN
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  SHIPPED
+  DELIVERED
+  CANCELLED
+}
