@@ -20,10 +20,10 @@ declare global {
 }
 
 export const metadata: Metadata = {
-  title: "Capo boutique",
-  description: "Capo boutique",
+  title: "capoboutique",
+  description: "capoboutique",
   icons: {
-    icon: "/logo/capoboutique.svg",
+    icon: "/logo/easydzbeauty.svg",
   },
   generator: 'v0.dev'
 }
@@ -42,8 +42,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/logo/capoboutique.svg" type="image/svg+xml" />
-        <link rel="icon" href="/logo/capoboutique.jpeg" type="image/jpeg" />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         <LanguageProvider>

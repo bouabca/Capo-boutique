@@ -29,8 +29,8 @@ export function Header() {
     <header className="border-b bg-white sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image src="/logo/capoboutique.jpeg" alt="Logo" width={64} height={64} />
-          <span className="ml-2 text-xl font-bold text-gray-900 font-clash">Capo boutique</span>
+          <Image src="/logo/easydzbeauty.png" alt="Logo" width={64} height={64} />
+          <span className="ml-2 text-xl font-bold text-gray-900 font-clash">capoboutique</span>
         </Link>
 
         {/* Desktop Nav */}
