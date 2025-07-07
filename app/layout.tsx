@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "capoboutique",
   description: "capoboutique",
   icons: {
-    icon: "/logo/easydzbeauty.svg",
+    icon: "/logo/capoboutique.svg",
   },
   generator: 'v0.dev'
 }
