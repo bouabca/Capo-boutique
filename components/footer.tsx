@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="flex flex-col items-center justify-center space-y-4">
-          <Image src="/logo/capoboutique.png" alt="Logo" width={64} height={64} />
+          <Image src="/logo/capoboutique.svg" alt="Logo" width={64} height={64} />
           <div className="text-lg font-inter text-white">+213 770 16 76 78</div>
           <div className="text-lg font-inter text-white">petsmartie@gmail.com</div>
         </div>

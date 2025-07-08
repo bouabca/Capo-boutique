@@ -30,7 +30,6 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image src="/logo/capoboutique.svg" alt="Logo" width={64} height={64} />
-          <span className="ml-2 text-xl font-bold text-gray-900 font-clash">capoboutique</span>
         </Link>
 
         {/* Desktop Nav */}
